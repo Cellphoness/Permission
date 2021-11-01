@@ -82,6 +82,7 @@ Set `permission.presentDeniedAlert = false` or `permission.presentDisabledAlert 
 In order not to burn your only chance of displaying the system alert, you can present a **pre-permission alert**. See this [article](http://techcrunch.com/2014/04/04/the-right-way-to-ask-users-for-ios-permissions/) for more informations.
 
 ```swift
+//code
 permission.presentPrePermissionAlert = true
 
 let alert = permission.prePermissionAlert
